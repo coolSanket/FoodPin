@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F9B33322055085900F2DC62 /* restaurantDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B332E2055085800F2DC62 /* restaurantDetail.png */; };
+		2F9B33332055085900F2DC62 /* yourReview.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B332F2055085900F2DC62 /* yourReview.png */; };
+		2F9B33342055085900F2DC62 /* addNewRestaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B33302055085900F2DC62 /* addNewRestaurant.png */; };
+		2F9B33352055085900F2DC62 /* restaurants.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B33312055085900F2DC62 /* restaurants.png */; };
 		F405E4C81D5C09500042A934 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F405E4C71D5C09500042A934 /* MapKit.framework */; };
 		F405E4CA1D5C6EB20042A934 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F405E4C91D5C6EB20042A934 /* MapViewController.swift */; };
 		F4177B581D586F3700822293 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177B571D586F3700822293 /* ReviewViewController.swift */; };
@@ -24,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F9B332E2055085800F2DC62 /* restaurantDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurantDetail.png; sourceTree = "<group>"; };
+		2F9B332F2055085900F2DC62 /* yourReview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yourReview.png; sourceTree = "<group>"; };
+		2F9B33302055085900F2DC62 /* addNewRestaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addNewRestaurant.png; sourceTree = "<group>"; };
+		2F9B33312055085900F2DC62 /* restaurants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurants.png; sourceTree = "<group>"; };
 		F405E4C71D5C09500042A934 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F405E4C91D5C6EB20042A934 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F4177B571D586F3700822293 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F9B332D2055082B00F2DC62 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2F9B33302055085900F2DC62 /* addNewRestaurant.png */,
+				2F9B332E2055085800F2DC62 /* restaurantDetail.png */,
+				2F9B332F2055085900F2DC62 /* yourReview.png */,
+				2F9B33312055085900F2DC62 /* restaurants.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F405E4C61D5C09500042A934 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +101,7 @@
 		F4D336C01D2E4309003010DD /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				2F9B332D2055082B00F2DC62 /* Images */,
 				F4D336C11D2E4309003010DD /* AppDelegate.swift */,
 				F4D336C51D2E4309003010DD /* Main.storyboard */,
 				F4D336C81D2E4309003010DD /* Assets.xcassets */,
@@ -165,9 +185,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9B33352055085900F2DC62 /* restaurants.png in Resources */,
+				2F9B33342055085900F2DC62 /* addNewRestaurant.png in Resources */,
 				F4D336CC1D2E4309003010DD /* LaunchScreen.storyboard in Resources */,
+				2F9B33332055085900F2DC62 /* yourReview.png in Resources */,
 				F4D336C91D2E4309003010DD /* Assets.xcassets in Resources */,
 				F4D336C71D2E4309003010DD /* Main.storyboard in Resources */,
+				2F9B33322055085900F2DC62 /* restaurantDetail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
